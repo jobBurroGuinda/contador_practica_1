@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/tutorias_DSD/contador_practica_1/contador.xst" -ofn "/home/ise/tutorias_DSD/contador_practica_1/contador.syr" 
+xst -intstyle ise -ifn "/home/ise/tutorias_DSD/contador_practica_1/contador.xst" -ofn "/home/ise/tutorias_DSD/contador_practica_1/contador.syr" 

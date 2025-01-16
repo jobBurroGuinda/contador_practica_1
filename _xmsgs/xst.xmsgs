@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="1217" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. Symbol <arg fmt="%s" index="3">work</arg> can&apos;t be used as a prefix in a selected name.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1212" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. Invalid selected name <arg fmt="%s" index="3">work.ff_t</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="1217" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. Symbol <arg fmt="%s" index="3">work</arg> can&apos;t be used as a prefix in a selected name.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1212" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. Invalid selected name <arg fmt="%s" index="3">work.ff_t</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="1217" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. Symbol <arg fmt="%s" index="3">work</arg> can&apos;t be used as a prefix in a selected name.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1212" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. Invalid selected name <arg fmt="%s" index="3">work.ff_t</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="1217" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Symbol <arg fmt="%s" index="3">work</arg> can&apos;t be used as a prefix in a selected name.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1212" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Invalid selected name <arg fmt="%s" index="3">work.ff_t</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/tutorias_DSD/contador_practica_1/contador.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+</messages>
+

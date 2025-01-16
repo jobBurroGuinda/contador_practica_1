@@ -1,6 +1,12 @@
-V3 3
-FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd 2025/01/15.16:19:20 P.20131013
-EN work/ff_t 1736968012 FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd \
+V3 7
+FL /home/ise/tutorias_DSD/contador_practica_1/contador.vhd 2025/01/16.08:11:52 P.20131013
+EN work/contador 0 FL /home/ise/tutorias_DSD/contador_practica_1/contador.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/ff_t/Behavioral 1736968013 \
-      FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd EN work/ff_t 1736968012
+AR work/contador/Behavioral -1 \
+      FL /home/ise/tutorias_DSD/contador_practica_1/contador.vhd EN work/contador 0 \
+      EN work/ff_t 1737015299 CP work/
+FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd 2025/01/15.16:19:20 P.20131013
+EN work/ff_t 1737015299 FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ff_t/Behavioral 1737015300 \
+      FL /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhd EN work/ff_t 1737015299
