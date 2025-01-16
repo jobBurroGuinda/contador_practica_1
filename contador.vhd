@@ -1,0 +1,59 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity contador is
+		Port ( T : in  STD_LOGIC;
+           Q : out  STD_LOGIC_VECTOR (2 downto 0);
+           Q : out  STD_LOGIC_VECTOR (2 downto 0);
+			  Clk50Mhz : in  STD_LOGIC;
+           led : out  STD_LOGIC;
+           Reset : in  STD_LOGIC
+		);
+end contador;
+
+architecture Behavioral of contador is
+	constant max_count: integer := 5;
+	signal count: INTEGER range 0 to max_count;
+	signal clk_state: std_logic := '0';
+begin
+
+	DivisorFrec: process(Clk50Mhz, clk_state, count)
+	begin
+		if Clk50Mhz'event and Clk50Mhz = '1' then
+			if count < max_count then
+				count <= count+1;
+			else
+				clk_state <= not clk_state;
+				count <= 0;
+			end if;
+		end if;
+	end process;
+
+	ff_0: work.ff_t PORT MAP(
+		clk => clk_state,
+		Reset => Reset,
+		T => T,
+		Q => Q(0),
+		Q_N => Q_N(0)
+	);
+
+	ff_1: work.ff_t PORT MAP(
+		clk => clk_state,
+		Reset => Reset,
+		T => Q(0),
+		Q => Q(1),
+		Q_N => Q_N()
+	);
+
+	ff_2: work.ff_t PORT MAP(
+		clk => clk_state,
+		Reset => Reset,
+		T => ,
+		Q => ,
+		Q_N => 
+	);
+	
+	led <= clk_state;
+
+end Behavioral;
+

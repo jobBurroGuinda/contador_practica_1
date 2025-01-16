@@ -1,0 +1,2 @@
+vhdtdtfi -prj contador_practica_1 -o /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhi -module ff_t -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ff_t.vhd 
+vhdtdtfi -prj contador_practica_1 -o /home/ise/tutorias_DSD/contador_practica_1/ff_t.vhi -module ff_t -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ff_t.vhd 

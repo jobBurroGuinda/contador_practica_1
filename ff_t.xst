@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/tutorias_DSD/contador_practica_1/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/tutorias_DSD/contador_practica_1/xst"
+elaborate
+-ifn ff_t.prj
+-ifmt mixed
